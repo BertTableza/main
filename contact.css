@@ -1,0 +1,68 @@
+.contact h2{
+    margin-bottom: 3rem;
+}
+body {
+    display: grid;
+    height: 10%;
+    place-items: center; /* Centers the input horizontally and vertically */
+    height: 500vh;       /* Full viewport height */
+    margin: 50% auto;
+    
+
+}
+
+input {
+    width: 50%; /* Adjust width */
+    padding: 10px;
+    font-size: 16px;
+    margin: 50% auto;
+}
+
+.contact-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    
+   
+}
+
+.center-align {
+    justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+
+}
+
+.contact form{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background-color: var(--snd-bg-color);
+    border-radius: .8rem;
+    margin-bottom: .7rem 0;
+    place-items: center;
+    justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+}
+
+.input-box input{
+        width: 80%;
+        justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+        
+}
+form textarea{
+    resize: none;
+    justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+}
+.btn{
+    margin: 2rem;
+    cursor: pointer;
+    justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+}
+
